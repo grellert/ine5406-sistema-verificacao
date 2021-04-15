@@ -6,6 +6,7 @@ def bin2int(a):
     return b.int
 
 def int2bin(a, length):
+    # para valores unsigned, usamos uint=a ao inves de int=a
     b = BitArray(int=a, length = length) # lenght eh o tamanho da string binaria
     return b.bin
 
